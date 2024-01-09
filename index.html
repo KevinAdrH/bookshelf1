@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf Web App</title>
+    <link rel="stylesheet" href="bookshelf.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/pngegg.png" alt="bookshelf logo" />
+      <h1>Explore Infinite Worlds, One Shelf at a Time</h1>
+      <p>Your Personalized Journey Through the Bookiverse</p>
+    </header>
+    <div class="ClickIni">
+      <button class="ClickHere" onclick="scrollToBookForm()">CLICK HERE</button>
+    </div>
+    <div class="space"></div>
+    <button class="LibraryButton" onclick="scrollToLibrary()"></button>
+    <main id="BookForm">
+      <section class="InputForm">
+        <div>
+          <img src="" alt="" />
+          <h2>Add your new Book here</h2>
+        </div>
+        <form>
+          <div class="input">
+            <label for="title">Title</label>
+            <input type="text" class="title" required />
+          </div>
+          <div class="input">
+            <label for="writer">Author</label>
+            <input type="text" class="writer" required />
+          </div>
+          <div class="input">
+            <label for="year">Year</label>
+            <input type="number" class="year" required />
+          </div>
+          <div class="FinishCheck">
+            <label>Finished</label>
+            <input type="checkbox" class="finishedCheckbox" />
+          </div>
+          <div class="SubmitButton">
+            <button class="AddButton" type="submit">Add</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <div>
+      <h3 class="LibraryTitle" id="Library">LIBRARY</h3>
+    </div>
+    <aside class="bookshelves">
+      <section>
+        <h2 class="h2find">Find your book here</h2>
+        <form class="searchBar">
+          <input type="text" id="searchInput" placeholder="Search by title" />
+        </form>
+      </section>
+      <section class="library libpend">
+        <div class="pending">
+          <h2>Pending</h2>
+          <div class="bookshelf" id="pendingShelf"></div>
+        </div>
+      </section>
+      <section class="library libdone">
+        <div class="done">
+          <h2>Done</h2>
+          <div class="bookshelf" id="doneShelf"></div>
+        </div>
+      </section>
+    </aside>
+
+    <script src="bookshelf.js"></script>
+  </body>
+</html>

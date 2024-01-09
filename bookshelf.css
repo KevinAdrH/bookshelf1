@@ -1,0 +1,313 @@
+* {
+  font-family: "Baloo Tamma", cursive;
+}
+:root {
+  --color: #ffffff;
+  --background: #2196f3;
+}
+
+body {
+  background: var(--background);
+  color: var(--color);
+  transition: 4s;
+  margin: 0;
+  padding: 0;
+}
+
+.StartButton img {
+  margin-left: 500px;
+  position: absolute;
+  margin-top: -50px;
+}
+
+.LibraryButton {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  right: 20px;
+  background-image: url(img/librarybutton.png);
+  background-size: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.LibraryButton:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+header p {
+  margin-top: 35px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 5px;
+  transition: 4s;
+
+  text-shadow: -1px -1px 0px var(--background), 3px 3px 0px var(--background),
+    6px 6px 0px #00000055;
+}
+section.InputForm {
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  margin-top: -10px;
+  padding: 20px;
+  height: 350px;
+}
+
+header img {
+  height: 170px;
+  position: absolute;
+  margin-left: -450px;
+  margin-top: 607px;
+}
+
+header h1 {
+  line-height: 100px;
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  font-size: 80px;
+  letter-spacing: 5px;
+  transition: 4s;
+  text-shadow: -1px -1px 0px var(--background), 3px 3px 0px var(--background),
+    6px 6px 0px #00000055;
+}
+section.InputForm {
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  margin-top: -30px;
+  height: 420px;
+  margin-top: 100px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+.space {
+  height: 150px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9;
+  color: rgb(3, 0, 44);
+  letter-spacing: 2px;
+  font-size: 2em;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+main h2 {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: hsl(239, 98%, 60%);
+  font-size: 36px;
+}
+
+.InputForm {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.LibraryTitle {
+  font-size: 4em;
+  text-align: center;
+  margin-top: 130px;
+  text-shadow: -1px -1px 0px var(--background), 3px 3px 0px var(--background),
+    6px 6px 0px #00000055;
+  letter-spacing: 5px;
+  transition: 4s;
+}
+aside {
+  width: 90%;
+  border-radius: 25px;
+  height: 800px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  margin-top: -60px;
+}
+aside .h2find {
+  padding: 10px;
+  display: flex;
+  position: relative;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: hsl(239, 98%, 60%);
+  margin-left: 10px;
+  font-size: 2em;
+  margin-top: -6px;
+}
+aside .searchBar {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+aside .searchBar input {
+  width: 500px;
+  height: 25px;
+}
+
+aside .libdone {
+  margin-left: 50px;
+}
+
+.library h2 {
+  margin-left: 200px;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: hsl(239, 98%, 60%);
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  margin-top: -20px;
+}
+
+.InputForm h2 {
+  text-align: center;
+  margin-top: -20px;
+}
+.FinishCheck {
+  margin-left: 541px;
+  margin-top: -10px;
+}
+.SubmitButton {
+  margin: 10px;
+  padding-left: 350px;
+  padding-top: 60px;
+}
+
+.AddButton {
+  padding: 10px 50px 10px 50px;
+  font-size: 16px;
+  margin: -60px 0 0 170px;
+  position: absolute;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-weight: bold;
+}
+
+.input input[type="text"] {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.input input[type="number"] {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.InputLabel {
+  border-radius: 10%;
+}
+
+.library {
+  flex: 1;
+  margin-left: -450px;
+  margin-top: 130px;
+  display: flex;
+  color: black;
+}
+
+/* START HERE BUTTON */
+.ClickIni {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.ClickHere {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4fd1c5;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+.Clickhere:hover {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.ClickHere::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00ffcb;
+  position: absolute;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+  margin-left: -75px;
+  margin-top: 10px;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
